@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Chengyan Deng (邓枨严), M.Eng. student at UESTC. Research in image and video generation, diffusion models, efficient generative models, and image super-resolution.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chengyan Deng · 邓枨严">
+  <meta property="og:description" content="Image & video generation · Diffusion models · Image super-resolution">
+  <title>Chengyan Deng · 邓枨严</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon-definitions" aria-hidden="true"><defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-email" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.1-6-2.6m12 5v-3.3c0-.9.1-1.5-.4-2.1 3.1-.4 6.4-1.5 6.4-6.9a5.3 5.3 0 0 0-1.5-3.7 5 5 0 0 0-.1-3.7s-1.2-.4-3.9 1.4a13.7 13.7 0 0 0-7 0C5.8 1.3 4.6 1.7 4.6 1.7a5 5 0 0 0-.1 3.7A5.3 5.3 0 0 0 3 9.1c0 5.4 3.3 6.5 6.4 6.9-.4.5-.5 1.1-.4 2.1v3.3"/></symbol>
+    <symbol id="i-scholar" viewBox="0 0 24 24"><path d="m2 9 10-6 10 6-10 6L2 9ZM6 12v6c4 3 8 3 12 0v-6M22 9v8"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="m8 12-2 9 6-3 6 3-2-9M10 8l1.3 1.3L14 6.5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/></symbol>
+  </defs></svg>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about" aria-label="Chengyan Deng, back to about">Chengyan Deng<span class="wordmark-dot">.</span></a>
+      <nav id="navigation" class="navigation" aria-label="Main navigation">
+        <a href="#about" class="active" data-zh="关于我">About</a>
+        <a href="#publications" data-zh="研究成果">Publications</a>
+        <a href="#experience" data-zh="科研经历">Experience</a>
+        <a href="#education" data-zh="教育背景">Education</a>
+        <a href="#honors" data-zh="荣誉奖励">Honors</a>
+      </nav>
+      <div class="header-controls">
+        <button type="button" id="language-toggle" class="language-toggle" aria-label="Switch to Chinese" title="Switch to Chinese">中文</button>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile">
+      <div class="profile-photo-wrap"><img class="profile-photo" src="assets/chengyan-deng.webp" width="2696" height="3774" alt="Portrait of Chengyan Deng" fetchpriority="high"></div>
+      <div class="profile-info">
+        <h1>Chengyan Deng</h1>
+        <p class="name-chinese" lang="zh-CN">邓枨严</p>
+        <p class="profile-role" data-zh="控制工程 · 硕士研究生">M.Eng. Student · Control Engineering</p>
+        <p class="profile-school"><a href="https://www.uestc.edu.cn/" target="_blank" rel="noopener noreferrer"><span data-zh="电子科技大学">University of Electronic Science<br>and Technology of China</span></a></p>
+        <p class="location"><svg class="icon" aria-hidden="true"><use href="#i-location"/></svg><span data-zh="中国 · 成都">Chengdu, China</span></p>
+        <div class="profile-links">
+          <a href="mailto:dengchengyan@std.uestc.edu.cn"><svg class="icon" aria-hidden="true"><use href="#i-email"/></svg><span data-zh="学术邮箱">Email</span><svg class="icon link-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a href="https://scholar.google.com/citations?user=fSVVdJYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-scholar"/></svg><span>Google Scholar</span><svg class="icon link-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a href="https://github.com/Blazedengcy" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span><svg class="icon link-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="sidebar-note"><span class="status-dot"></span><span data-zh="目前在华为诺亚研究院实习">Currently at Huawei Noah’s Ark Lab</span></div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <section id="about" class="section about-section" aria-labelledby="about-title">
+        <div class="section-heading"><h2 id="about-title" data-zh="关于我">About me</h2></div>
+        <div class="bio">
+          <p data-zh="我是<strong>邓枨严</strong>，目前在<strong>电子科技大学</strong>攻读控制工程硕士学位，师从<a href='https://www.auto.uestc.edu.cn/info/1174/4407.htm' target='_blank' rel='noopener noreferrer'>于力老师</a>，预计于 2027 年 6 月毕业。本科毕业于合肥工业大学自动化专业。">I am <strong>Chengyan Deng</strong>, a master’s student in Control Engineering at the <strong>University of Electronic Science and Technology of China (UESTC)</strong>, advised by <a href="https://www.auto.uestc.edu.cn/info/1174/4407.htm" target="_blank" rel="noopener noreferrer">Prof. Li Yu</a>. I expect to graduate in June 2027 and received my B.Eng. in Automation from Hefei University of Technology.</p>
+          <p data-zh="我的研究兴趣是<strong>图像与视频生成、扩散模型以及图像超分辨率</strong>，关注高效生成模型与高质量图像重建。">My research interests lie in <strong>image and video generation, diffusion models, and image super-resolution</strong>, with a focus on efficient generative models and high-quality image reconstruction.</p>
+          <p data-zh="目前，我在<strong>华为诺亚研究院</strong>基础大模型部从事研究实习，探索文生图模型的 Dense-to-MoE 方法。我也有幸在<strong>南京大学</strong>担任科研助理，接受<a href='https://cszn.github.io/' target='_blank' rel='noopener noreferrer'>张凯老师</a>的指导。此前，我曾在 <strong>OPPO AI 研究中心</strong>从事 AIGC 算法研究实习。">I am currently a research intern at <strong>Huawei Noah’s Ark Lab</strong>, exploring Dense-to-MoE methods for text-to-image generation. I am also fortunate to work as a research assistant at <strong>Nanjing University</strong> under the guidance of <a href="https://cszn.github.io/" target="_blank" rel="noopener noreferrer">Prof. Kai Zhang</a>. Previously, I was a research intern at <strong>OPPO AI Research Center</strong>.</p>
+        </div>
+        <div class="research-interests" aria-label="Research interests"><span data-zh="图像与视频生成">Image &amp; video generation</span><span data-zh="扩散模型">Diffusion models</span><span data-zh="高效生成模型">Efficient generative models</span><span data-zh="图像超分辨率">Super-resolution</span></div>
+        <p class="contact-note"><svg class="icon" aria-hidden="true"><use href="#i-email"/></svg><span><span data-zh="欢迎交流与合作：">Happy to connect and discuss research:</span> <a href="mailto:dengchengyan@std.uestc.edu.cn">dengchengyan@std.uestc.edu.cn</a></span></p>
+      </section>
+
+      <section class="section news-section" aria-labelledby="news-title">
+        <div class="section-heading"><h2 id="news-title" data-zh="近期动态">News</h2></div>
+        <ul class="news-list">
+          <li><time datetime="2026-07">2026.07</time><span data-zh="<a href='https://proceedings.mlr.press/v306/deng26e.html' target='_blank' rel='noopener noreferrer'>GTASR</a> 发表于 <strong>ICML 2026</strong>。"><a href="https://proceedings.mlr.press/v306/deng26e.html" target="_blank" rel="noopener noreferrer">GTASR</a> appeared at <strong>ICML 2026</strong>.</span></li>
+          <li><time datetime="2026-06">2026.06</time><span data-zh="加入<strong>华为诺亚研究院</strong>，从事图像生成研究实习。">Joined <strong>Huawei Noah’s Ark Lab</strong> as an image generation research intern.</span></li>
+          <li><time datetime="2026-01">2026.01</time><span data-zh="<a href='https://doi.org/10.1016/j.patcog.2026.113057' target='_blank' rel='noopener noreferrer'>IHMambaSR</a> 被 <strong>Pattern Recognition</strong> 录用。"><a href="https://doi.org/10.1016/j.patcog.2026.113057" target="_blank" rel="noopener noreferrer">IHMambaSR</a> was accepted by <strong>Pattern Recognition</strong>.</span></li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section publications-section" aria-labelledby="publications-title">
+        <div class="section-heading"><h2 id="publications-title" data-zh="代表性研究成果">Selected publications</h2><span class="heading-note" data-zh="论文与预印本">Papers &amp; preprints</span></div>
+
+        <article class="publication" id="gtasr">
+          <div class="paper-visual"><button type="button" class="figure-button" data-figure="assets/gtasr-pipeline.png" data-caption="GTASR · Method overview" aria-label="Enlarge GTASR method figure"><img src="assets/gtasr-pipeline.png" width="600" height="400" alt="GTASR framework illustrating trajectory alignment and dual-reference structural rectification" loading="lazy"><span class="figure-caption">GTASR <span aria-hidden="true">↗</span></span></button></div>
+          <div class="paper-content">
+            <div class="paper-meta"><span class="venue-badge">ICML 2026</span><span class="paper-type" data-zh="一步真实图像超分">One-step real-world SR</span></div>
+            <h3><a href="https://proceedings.mlr.press/v306/deng26e.html" target="_blank" rel="noopener noreferrer">Joint Geometric and Trajectory Consistency Learning for One-Step Real-World Super-Resolution</a></h3>
+            <p class="authors"><strong>Chengyan Deng</strong>, Zhangquan Chen, Li Yu, Kai Zhang, Xue Zhou, Wang Zhang</p>
+            <p class="paper-description" data-zh="通过轨迹对齐与双参考结构约束，提升一步真实图像超分的重建质量与几何结构一致性。">Trajectory alignment and dual-reference structural constraints for faithful one-step image restoration.</p>
+            <div class="paper-links"><a href="https://proceedings.mlr.press/v306/deng26e.html" target="_blank" rel="noopener noreferrer" data-zh="论文">Paper</a><a href="https://arxiv.org/abs/2602.24240" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/Blazedengcy/GTASR" target="_blank" rel="noopener noreferrer" data-zh="代码">Code</a><button type="button" data-citation="gtasr">BibTeX</button></div>
+          </div>
+        </article>
+
+        <article class="publication" id="ihmambasr">
+          <div class="paper-visual"><button type="button" class="figure-button" data-figure="assets/ihmambasr-architecture.jpg" data-caption="IHMambaSR · Method overview" aria-label="Enlarge IHMambaSR research overview"><img src="assets/ihmambasr-architecture.jpg" width="600" height="400" alt="IHMambaSR architecture showing importance-guided hierarchical scanning and dynamic prompts" loading="lazy"><span class="figure-caption">IHMambaSR <span aria-hidden="true">↗</span></span></button></div>
+          <div class="paper-content">
+            <div class="paper-meta"><span class="venue-badge venue-journal">Pattern Recognition 2026</span></div>
+            <h3><a href="https://doi.org/10.1016/j.patcog.2026.113057" target="_blank" rel="noopener noreferrer">IHMambaSR: An Importance-Guided Hierarchical Mamba with Dynamic Prompt for Single Image Super-Resolution</a></h3>
+            <p class="authors"><strong>Chengyan Deng</strong>, Kai Zhang, Lieqiang Yang, Wang Zhang, Li Yu</p>
+            <p class="paper-description" data-zh="重要性引导的层级扫描结合动态提示，在保持空间结构的同时增强 Mamba 的长程建模能力。">Importance-guided hierarchical scanning and dynamic prompts for efficient, structure-aware super-resolution.</p>
+            <div class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2026.113057" target="_blank" rel="noopener noreferrer" data-zh="论文">Paper</a><a href="https://github.com/Blazedengcy/IHMambaSR" target="_blank" rel="noopener noreferrer" data-zh="项目仓库">Repository</a><button type="button" data-citation="ihmambasr">BibTeX</button></div>
+          </div>
+        </article>
+
+        <article class="publication" id="op4ksr">
+          <div class="paper-visual"><button type="button" class="figure-button" data-figure="assets/op4ksr-pipeline.png" data-caption="OP4KSR · Method overview" aria-label="Enlarge OP4KSR method figure"><img src="assets/op4ksr-pipeline.png" width="600" height="400" alt="OP4KSR approach to one-step patch-free 4K super-resolution with periodic artifact suppression" loading="lazy"><span class="figure-caption">OP4KSR <span aria-hidden="true">↗</span></span></button></div>
+          <div class="paper-content">
+            <div class="paper-meta"><span class="venue-badge venue-preprint" data-zh="预印本 · 2026">Preprint 2026</span><span class="review-status" data-zh="AAAI 在投">Under review at AAAI</span></div>
+            <h3><a href="https://arxiv.org/abs/2605.13457" target="_blank" rel="noopener noreferrer">OP4KSR: One-Step Patch-Free 4K Super-Resolution with Periodic Artifact Suppression</a></h3>
+            <p class="authors"><strong>Chengyan Deng</strong>, Pengbin Yu, Zhentao Chen, Wei Shen, Kai Zhang, Meng Li, Lunxi Yuan, Xue Zhou, Li Yu</p>
+            <p class="paper-description" data-zh="基于生成式先验实现一步、无需分块的 4K 超分，并通过 RoPE 频率重缩放与周期性约束抑制伪影。">Full-image 4K super-resolution in one step, with RoPE frequency rescaling and periodic artifact suppression.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2605.13457" target="_blank" rel="noopener noreferrer" data-zh="论文">Paper</a><button type="button" data-citation="op4ksr">BibTeX</button></div>
+          </div>
+        </article>
+      </section>
+
+      <section id="experience" class="section" aria-labelledby="experience-title">
+        <div class="section-heading"><h2 id="experience-title" data-zh="科研与实习经历">Research experience</h2></div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date" data-zh="2026.06 — 至今">Jun. 2026 — Present</div>
+            <div class="timeline-content">
+              <div class="institution-mark"><img src="assets/logos/huawei-stacked.svg" width="67" height="67" alt="Huawei logo" loading="lazy"></div>
+              <div class="timeline-description"><h3 data-zh="华为诺亚研究院">Huawei Noah’s Ark Lab</h3><p class="position" data-zh="图像生成研究实习生 · 基础大模型部">Image Generation Research Intern · Foundation Models</p><p data-zh="探索文生图模型的 Dense-to-MoE 初始化与专家分化，在相同激活计算量下提升生成能力。">Exploring Dense-to-MoE initialization and expert specialization for better text-to-image generation at comparable active compute.</p></div>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date" data-zh="2025.11 — 2026.03">Nov. 2025 — Mar. 2026</div>
+            <div class="timeline-content">
+              <div class="institution-mark institution-mark-company"><img src="assets/logos/oppo.png" width="600" height="144" alt="OPPO logo" loading="lazy"></div>
+              <div class="timeline-description"><h3 data-zh="OPPO AI 研究中心">OPPO AI Research Center</h3><p class="position" data-zh="AIGC 算法研究实习生">AIGC Algorithm Research Intern</p><p data-zh="开展一步、无需分块的 4K 图像超分研究，围绕高效推理与周期性伪影抑制完成 OP4KSR。">Developed OP4KSR for one-step, patch-free 4K super-resolution, focusing on efficient inference and periodic artifact suppression.</p></div>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date" data-zh="2025.05 — 至今">May 2025 — Present</div>
+            <div class="timeline-content">
+              <div class="institution-mark"><img src="assets/logos/nju.jpg" width="1722" height="2160" alt="Nanjing University emblem" loading="lazy"></div>
+              <div class="timeline-description"><h3 data-zh="南京大学">Nanjing University</h3><p class="position" data-zh="科研助理 · 智能科学与技术学院 · <a href='https://cszn.github.io/' target='_blank' rel='noopener noreferrer'>张凯老师</a>">Research Assistant · School of Intelligence Science and Technology · <a href="https://cszn.github.io/" target="_blank" rel="noopener noreferrer">Prof. Kai Zhang</a></p><p data-zh="研究一步真实图像超分的几何结构与轨迹一致性，完成 GTASR。">Studying geometric and trajectory consistency for one-step real-world super-resolution through GTASR.</p></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section" aria-labelledby="education-title">
+        <div class="section-heading"><h2 id="education-title" data-zh="教育背景">Education</h2></div>
+        <div class="education-list">
+          <article class="education-item">
+            <div class="institution-mark"><img src="assets/logos/uestc.png" width="1280" height="1280" alt="University of Electronic Science and Technology of China emblem" loading="lazy"></div>
+            <div class="education-content"><h3 data-zh="电子科技大学">University of Electronic Science and Technology of China</h3><p data-zh="控制工程 · 工程硕士">M.Eng. in Control Engineering</p><p class="education-advisor" data-zh="导师：<a href='https://www.auto.uestc.edu.cn/info/1174/4407.htm' target='_blank' rel='noopener noreferrer'>于力老师</a>">Advisor: <a href="https://www.auto.uestc.edu.cn/info/1174/4407.htm" target="_blank" rel="noopener noreferrer">Prof. Li Yu</a></p><p class="education-detail"><span data-zh="2024.09 — 2027.06（预计）">Sep. 2024 — Jun. 2027 (expected)</span><span class="detail-divider">·</span><span>GPA: 3.83 / 4.0</span></p></div>
+          </article>
+          <article class="education-item">
+            <div class="institution-mark"><img src="assets/logos/hfut.png" width="418" height="419" alt="Hefei University of Technology emblem" loading="lazy"></div>
+            <div class="education-content"><h3 data-zh="合肥工业大学">Hefei University of Technology</h3><p data-zh="自动化 · 工学学士">B.Eng. in Automation</p><p class="education-detail"><span data-zh="2020.09 — 2024.06">Sep. 2020 — Jun. 2024</span><span class="detail-divider">·</span><span data-zh="专业排名：9 / 154">Rank: 9 / 154</span></p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="honors" class="section honors-section" aria-labelledby="honors-title">
+        <div class="section-heading"><h2 id="honors-title" data-zh="荣誉奖励">Honors &amp; awards</h2></div>
+        <ul class="honors-list">
+          <li><svg class="icon award-icon" aria-hidden="true"><use href="#i-award"/></svg><div><h3 data-zh="国家奖学金">National Scholarship</h3><p data-zh="National Scholarship" lang="zh-CN">国家奖学金</p></div></li>
+          <li><svg class="icon award-icon" aria-hidden="true"><use href="#i-award"/></svg><div><h3 data-zh="安徽省优秀毕业生">Outstanding Graduate of Anhui Province</h3><p data-zh="Outstanding Graduate of Anhui Province" lang="zh-CN">安徽省优秀毕业生</p></div></li>
+        </ul>
+      </section>
+
+      <footer class="site-footer"><span>© 2026 Chengyan Deng</span><span data-zh="更新于 2026 年 10 月">Last updated October 2026</span><a href="#about" class="back-top" data-zh="返回顶部 ↑">Back to top ↑</a></footer>
+    </main>
+  </div>
+
+  <dialog id="citation-dialog" class="citation-dialog" aria-labelledby="citation-title"><div class="dialog-top"><h2 id="citation-title">BibTeX</h2><button class="dialog-close" type="button" data-close aria-label="Close citation">×</button></div><pre id="citation-text" tabindex="0"></pre><div class="dialog-bottom"><span id="copy-status" role="status" aria-live="polite"></span><button type="button" class="copy-button" id="copy-citation"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span data-zh="复制引用">Copy citation</span></button></div></dialog>
+  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-title"><div class="dialog-top"><h2 id="figure-title">Research figure</h2><button class="dialog-close" type="button" data-close aria-label="Close figure">×</button></div><img id="figure-image" src="assets/gtasr-pipeline.png" alt=""></dialog>
+</body>
+</html>
