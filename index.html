@@ -41,6 +41,15 @@
     }
   </style>
   <script src="app.js" defer></script>
+  <!-- Match the visible Tsinghua emblem size to the other university emblems. -->
+  <style id="tsinghua-emblem-fix">
+    .institution-mark-tsinghua { overflow: hidden; }
+    .institution-mark-tsinghua img {
+      object-fit: cover;
+      flex-shrink: 0;
+      transform: translateY(-4.4%) scale(1.25);
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
