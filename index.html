@@ -10,7 +10,34 @@
   <meta property="og:description" content="Chengyan Deng · Image and video generation · Academic homepage">
   <title>Chengyan Deng · 邓枨严</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261020-7">
+  <!-- Keep these requested layout fixes in index.html as well as styles.css. -->
+  <style id="profile-publication-fixes">
+    .profile .profile-info { text-align: center; }
+    .profile .name-chinese {
+      display: block;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      text-indent: 0;
+      letter-spacing: 0;
+      word-spacing: 0;
+      white-space: nowrap;
+    }
+    .publication .paper-meta { gap: 10px 12px; margin-bottom: 10px; }
+    .publication .venue-badge {
+      font-size: 16px;
+      line-height: 1.55;
+      font-weight: 650;
+      letter-spacing: 0;
+      padding: 3px 9px;
+    }
+    .publication .review-status { font-size: 15px; line-height: 1.7; color: #74613f; }
+    @media (min-width: 781px) {
+      .profile .profile-photo-wrap { margin-left: auto; margin-right: auto; }
+    }
+  </style>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -75,7 +102,6 @@
         <div class="section-heading"><h2 id="news-title">News</h2></div>
         <ul class="news-list">
           <li><time datetime="2026-10">2026.10</time><span>Awarded the <strong>National Scholarship</strong>.</span></li>
-          <li><time datetime="2026-06">2026.06</time><span>Joined <strong>Huawei Noah’s Ark Lab</strong> as an image generation research intern.</span></li>
           <li><time datetime="2026-05">2026.05</time><span>GTASR was accepted by <strong>ICML 2026</strong>.</span></li>
           <li><time datetime="2026-01">2026.01</time><span>IHMambaSR was accepted by <strong>Pattern Recognition</strong>.</span></li>
         </ul>
